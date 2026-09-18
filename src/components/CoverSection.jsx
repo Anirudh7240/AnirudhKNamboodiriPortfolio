@@ -52,7 +52,7 @@ export default function CoverSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="font-mono-editorial text-xs md:text-sm text-[#c85a32] tracking-widest font-semibold uppercase mb-4 border border-[#c85a32]/30 px-3 py-1 rounded-full"
+          className="font-mono-editorial text-[10px] sm:text-xs md:text-sm text-[#c85a32] tracking-widest font-semibold uppercase mb-3 sm:mb-4 border border-[#c85a32]/30 px-2.5 py-1 rounded-full"
         >
           CONTEMPORARY DIGITAL PUBLICATION
         </motion.span>
@@ -63,7 +63,7 @@ export default function CoverSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-display text-[12vw] sm:text-[10.5vw] lg:text-[9.2vw] font-extrabold leading-[0.85] tracking-tight text-[#f4f1ea] uppercase select-none whitespace-nowrap"
+            className="font-display text-[13vw] sm:text-[10.5vw] lg:text-[9.2vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none whitespace-nowrap"
           >
             ANIRUDH
           </motion.h1>
@@ -75,7 +75,7 @@ export default function CoverSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25 }}
-            className="font-display text-[9vw] sm:text-[7.8vw] lg:text-[6.8vw] font-extrabold leading-[0.85] tracking-tight text-[#f4f1ea] uppercase select-none flex flex-wrap items-baseline gap-2 sm:gap-6 whitespace-nowrap"
+            className="font-display text-[9.5vw] sm:text-[7.8vw] lg:text-[6.8vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none flex flex-wrap items-baseline gap-2 sm:gap-6 whitespace-nowrap"
           >
             <span className="font-serif-editorial italic font-normal text-[#8e8c87]">K.</span>
             <span>NAMBOODIRI</span>
@@ -87,7 +87,7 @@ export default function CoverSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-8 flex flex-wrap items-center gap-6 text-sm md:text-base text-[#8e8c87] font-mono-editorial tracking-widest uppercase"
+          className="mt-6 sm:mt-8 flex flex-wrap items-center gap-2 sm:gap-6 text-xs sm:text-sm md:text-base text-[#8e8c87] font-mono-editorial tracking-widest uppercase"
         >
           <span className="text-[#f4f1ea] font-bold">PYTHON FULL STACK DEVELOPER</span>
           <span className="hidden sm:inline-block">|</span>
@@ -98,12 +98,12 @@ export default function CoverSection() {
       {/* Bottom Cover Metadata Grid */}
       <motion.div
         style={{ opacity: coverOpacity }}
-        className="relative z-10 pt-8 border-t border-hairline grid grid-cols-2 md:grid-cols-4 gap-6 text-xs font-mono-editorial"
+        className="relative z-10 pt-6 sm:pt-8 border-t border-hairline grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-[10px] sm:text-xs font-mono-editorial"
       >
         {magazineIssue.coverMetadata.map((meta, i) => (
-          <div key={i} className="space-y-1">
-            <p className="text-[#8e8c87] uppercase text-[10px] tracking-widest">{meta.label}</p>
-            <p className="text-[#f4f1ea] font-semibold uppercase">{meta.val}</p>
+          <div key={i} className="space-y-0.5 sm:space-y-1">
+            <p className="text-[#8e8c87] uppercase text-[9px] sm:text-[10px] tracking-widest">{meta.label}</p>
+            <p className="text-[#f4f1ea] font-semibold uppercase truncate">{meta.val}</p>
           </div>
         ))}
       </motion.div>
