@@ -63,7 +63,7 @@ export default function CoverSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-display text-[13vw] sm:text-[10.5vw] lg:text-[9.2vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none whitespace-nowrap"
+            className="font-display text-[11vw] xs:text-[10vw] sm:text-[9.5vw] md:text-[9vw] lg:text-[8.5vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none max-w-full break-words"
           >
             ANIRUDH
           </motion.h1>
@@ -75,7 +75,7 @@ export default function CoverSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.25 }}
-            className="font-display text-[9.5vw] sm:text-[7.8vw] lg:text-[6.8vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none flex flex-wrap items-baseline gap-2 sm:gap-6 whitespace-nowrap"
+            className="font-display text-[7.5vw] xs:text-[7vw] sm:text-[6.8vw] md:text-[6.5vw] lg:text-[6vw] font-extrabold leading-[0.88] tracking-tight text-[#f4f1ea] uppercase select-none flex flex-wrap items-baseline gap-2 sm:gap-6 max-w-full break-words"
           >
             <span className="font-serif-editorial italic font-normal text-[#8e8c87]">K.</span>
             <span>NAMBOODIRI</span>
