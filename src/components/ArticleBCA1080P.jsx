@@ -71,15 +71,6 @@ export default function ArticleBCA1080P() {
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/90 via-transparent to-transparent opacity-70" />
-            <div className="absolute bottom-6 left-6 lg:bottom-10 lg:left-10 max-w-xl">
-              <span className="font-mono-editorial text-[10px] text-[#c85a32] tracking-widest uppercase border border-[#c85a32]/40 px-2 py-0.5 rounded-full">
-                MEMORIES & BATCH STORY
-              </span>
-              <h3 className="font-serif-editorial text-3xl sm:text-4xl text-[#f4f1ea] italic mt-2">
-                "Three years, countless memories, one unforgettable journey."
-              </h3>
-            </div>
           </div>
         </motion.div>
 
